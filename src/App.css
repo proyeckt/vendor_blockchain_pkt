@@ -1,5 +1,85 @@
 .App {
+  text-align: left;
+  
+}
+
+body {
+  background-color: teal;
+  color: whitesmoke;
+}
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+p {
+  margin-top:0.2rem;
+  margin-left:1rem;
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+h1 {
   text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+.inputNum {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  height: 25px;
+  width:  100px;
+  padding: 4px;
+}
+
+.btngroup {
+  display: flex;
+  margin: 1rem auto;
+}
+
+.btn2 {
+  background-color: rgb(21, 19, 44);
+  color: whitesmoke;
+  font-size: 1rem;
+  border-radius: 20px;
+  border:none;
+  width: 8rem;
+  margin-left: 0.5rem;
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  display: inline;
+}
+
+button[disabled] {
+  background-color: gray
+}
+
+.clearText {
+  color:yellow;
+  font-weight:bold;
+}
+
+.orangeText{
+  color: orange;
+  font-weight: bold;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .App-logo {
