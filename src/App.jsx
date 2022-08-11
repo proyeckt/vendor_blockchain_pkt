@@ -203,17 +203,17 @@ return (
 
   <div className='App'>
 
-    <h1>Welcome to Alpha Token</h1>
+    <h1>Welcome to Proyeckt Token</h1>
      <h2>BlockChain Type: <span className='orangeText'>  {netType} </span> &nbsp;  Net id: <span className='orangeText'> { netId } </span> </h2>
      <p>Contract address: <span className='orangeText'>  {Vendor_contractAddress} </span> </p>
      <p>Owner of Contract: <span className='orangeText'>  {contractOwner} </span>   </p>
      <p>Contract Balance: <span className='orangeText'> {contractBalance} </span>Ether</p>
-     <p>Contract AXC Token: <span className='orangeText'> {contractTokenBal}  </span></p>
+     <p>Contract PKT Token: <span className='orangeText'> {contractTokenBal}  </span></p>
      <p>______________________________________________________________________________</p>
      
      <p>Your Account: <span className='clearText' > {activeAccount} </span></p>
      <p>Value Balance: <span className='clearText'>{accountBalance}</span> Ether</p>
-     <p>AXC Token Balance: <span className='clearText'> {tokenBalance} </span></p>
+     <p>PKT Token Balance: <span className='clearText'> {tokenBalance} </span></p>
      <p>Price: 1 Ether = 100 PKT Tokens</p>
      <button className='btn2' onClick={() => {window.location.reload()} }>Refresh</button>
      
